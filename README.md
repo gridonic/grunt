@@ -1,4 +1,4 @@
-<p align="center"><img src="http://gruntjs.com/img/og.png" alt="Grunt" width="128"></p>
+<p align="center"><img src="https://gridonic.github.io/assets/images/logos/grunt.svg" alt="Grunt" width="128"></p>
 
 # Grunt
 
