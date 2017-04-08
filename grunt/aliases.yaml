@@ -1,13 +1,35 @@
 # Default grunt task
 default:
-    - 'eslint'
+    - dev
 
 # Development build
 dev:
-    - 'eslint'
-    - 'shell:hello'
+    - clean
+    - lint
+    - sass
+    - postcss:dev
+    - copy:fonts
+    - copy:images
+    # - js
 
 # Production build
 prod:
-    - 'eslint'
-    - 'shell:hai'
+    - clean
+    - lint
+    - sass:prod
+    - postcss:prod
+    # - js:prod
+    # - uglify
+    - copy:fonts
+    - copy:images
+    - imagemin
+
+lint:
+    - eslint
+    - stylelint
+
+styleguide:
+    - sass:styleguide
+
+docs:
+    - sass:docs

@@ -1,5 +1,5 @@
 module.exports = {
     all: [
-        '<%= gruntDir %>/**/*.js'
+        '<%= src %>/js/**/*.js'
     ]
 };
