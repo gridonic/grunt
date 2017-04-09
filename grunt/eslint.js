@@ -1,5 +1,5 @@
 module.exports = {
     all: [
-        '<%= src %>/js/**/*.js'
+        '<%= src %>/js/src/**/*.js'
     ]
 };
