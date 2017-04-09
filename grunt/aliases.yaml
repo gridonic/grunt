@@ -10,7 +10,7 @@ dev:
     - postcss:dev
     - copy:fonts
     - copy:images
-    # - js
+    - js
 
 # Production build
 prod:
@@ -18,8 +18,7 @@ prod:
     - lint
     - sass:prod
     - postcss:prod
-    # - js:prod
-    # - uglify
+    - js:prod
     - copy:fonts
     - copy:images
     - imagemin
