@@ -1,0 +1,4 @@
+# see https://github.com/gridonic/coding for our .stylelintrc
+{
+  rules: {}
+}
