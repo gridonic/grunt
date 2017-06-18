@@ -7,7 +7,6 @@ dev:
     - clean
     - lint
     - sass
-    - postcss:dev
     - copy:fonts
     - copy:images
     - js
@@ -17,7 +16,6 @@ prod:
     - clean
     - lint
     - sass:prod
-    - postcss:prod
     - js:prod
     - copy:fonts
     - copy:images

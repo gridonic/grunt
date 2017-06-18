@@ -6,9 +6,6 @@
   "author": "Gridonic <hello@gridonic.ch>",
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^7.0.1",
-    "cssnano": "^3.10.0",
-    "cssstats": "^3.0.0",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-import": "^2.2.0",
@@ -20,19 +17,14 @@
     "grunt-contrib-imagemin": "^1.0.1",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-eslint": "^19.0.0",
-    "grunt-postcss": "^0.8.0",
     "grunt-shell": "^2.1.0",
     "grunt-stylelint": "^0.8.0",
     "load-grunt-config": "^0.19.2",
-    "postcss-stats-reporter": "^0.2.0",
     "stylelint": "^7.10.1",
     "stylelint-config-standard": "^16.0.0",
     "stylelint-rscss": "^0.4.0",
     "time-grunt": "^1.4.0"
   },
-  "browserslist": [
-    "last 2 versions"
-  ],
   "main": "Gruntfile.js",
   "repository": {
     "type": "git",
