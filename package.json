@@ -2,7 +2,9 @@
   "name": "@gridonic/grunt",
   "version": "1.0.0",
   "description": "Our Grunt setup.",
-  "scripts": {},
+  "scripts": {
+    "precommit": "grunt stylelint && grunt eslint"
+  },
   "author": "Gridonic <hello@gridonic.ch>",
   "license": "MIT",
   "devDependencies": {
@@ -23,7 +25,8 @@
     "stylelint": "^7.10.1",
     "stylelint-config-standard": "^16.0.0",
     "stylelint-rscss": "^0.4.0",
-    "time-grunt": "^1.4.0"
+    "time-grunt": "^1.4.0",
+    "husky": "^0.13.3"
   },
   "main": "Gruntfile.js",
   "repository": {
