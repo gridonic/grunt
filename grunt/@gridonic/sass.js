@@ -18,8 +18,8 @@ const cmds = {
     // sass:styleguide -> npm run styleguide
     get styleguide() { return this._run('styleguide'); },
 
-    // change into sass directory, run yarn, run npm command…
-    _run(cmd) { return [ '(cd <%= src %>/sass', 'yarn', `npm run ${cmd})`].join('&&'); },
+    // change into sass directory, install deps, run npm command…
+    _run(cmd) { return [ '(cd <%= src %>/sass', 'npm i', `npm run ${cmd})`].join('&&'); },
 
     // build task
     _build(env) {

@@ -12,8 +12,8 @@ const cmds = {
     // js:test -> npm run test
     get test() { return this._run('test'); },
 
-    // change into js directory, run yarn, run npm command…
-    _run(cmd) { return [ '(cd <%= src %>/js', 'yarn', `npm run ${cmd})`].join('&&'); },
+    // change into js directory, install deps, run npm command…
+    _run(cmd) { return [ '(cd <%= src %>/js', 'npm i', `npm run ${cmd})`].join('&&'); },
 
     // build task
     _build(env) {
